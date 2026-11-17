@@ -1,0 +1,14 @@
+# 資料不進 repo：用 backend/download_data.py 下載
+backend/data/*.csv
+
+# 內部實驗紀錄
+evidence-*/
+
+node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+
+# 老師頁密碼（本機設定，不進 repo）
+backend/teacher_key.txt
